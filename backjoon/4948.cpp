@@ -13,7 +13,7 @@ int main(){
             break;
         }
         for(int i = n+1; i <= 2*n; i++){   
-            rot = sqrt(i);o
+            root = sqrt(i);
             if(root == 1 && i != 1){
                 cnt++;
                 continue;
