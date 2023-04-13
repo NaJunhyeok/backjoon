@@ -1,8 +1,9 @@
 {
     "configurations": [
+
         {
             "name": "clang++ - 활성 파일 빌드 및 디버그",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [],
