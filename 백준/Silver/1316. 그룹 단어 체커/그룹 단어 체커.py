@@ -1,0 +1,14 @@
+import sys
+
+n = int(sys.stdin.readline())
+count = 0
+for i in range(n):
+    str = sys.stdin.readline()
+    for j in range(0,len(str)-1):
+        if str[j] == str[j+1]:
+            pass
+        elif str[j] in str[j+1:]:
+            count = count + 1
+            break
+print(n - count)
+
